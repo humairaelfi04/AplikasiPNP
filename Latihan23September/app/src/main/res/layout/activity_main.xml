@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="328dp"
+            android:layout_height="298dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100sp"
+            app:srcCompat="@drawable/pnp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang di Politeknik Negeri Padang"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FF9800"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limau Manih, Padang, Sumbar"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30sp"
+            android:backgroundTint="#FF9800"
+            android:text="Manajemen Informatika"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnTK"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#FF9800"
+            android:text="Teknik Komputer"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnPhoto"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20sp"
+            android:backgroundTint="#FF9800"
+            android:text="Galeri Photo" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
